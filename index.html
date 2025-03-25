@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація клієнта та тестова система</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h2>Форма реєстрації клієнта</h2>
+    <p id="message"></p>
+    <form id="registration-form">
+        <label>Ім'я та Прізвище: <input type="text" id="name" required></label><br>
+        <label>Email: <input type="email" id="email" required></label><br>
+        <label>Пароль: <input type="password" id="password" required></label><br>
+        <label>Телефон: <input type="tel" id="phone" required></label><br>
+        <label>Дата народження: <input type="date" id="dob" required></label><br>
+        <label>Стать:
+            <input type="radio" name="gender" value="male" checked> Чоловіча
+            <input type="radio" name="gender" value="female"> Жіноча
+        </label><br>
+        <label>Країна: <select id="country"><br>
+                <option value="Україна">Україна</option>
+                <option value="Польща">Польща</option>
+                <option value="Німеччина">Німеччина</option>
+            </select></label><br>
+        <label><input type="checkbox" id="agreement"> Погоджуюся з обробкою даних</label><br>
+        <label>Фото профілю: <input type="file" id="photo"></label><br>
+        <button type="submit">Зареєструватися</button><br>
+    </form>
+
+    <h2>Панель адміністратора</h2>
+    <div id="admin-panel"></div>
+
+    <h2>Тестова система</h2>
+    <div id="test-system">
+        <h3 id="test-title">Тест з 5 запитань</h3>
+        <div id="question-navigation">
+            <button onclick="showQuestion(0)">Питання 1</button>
+            <button onclick="showQuestion(1)">Питання 2</button>
+            <button onclick="showQuestion(2)">Питання 3</button>
+            <button onclick="showQuestion(3)">Питання 4</button>
+            <button onclick="showQuestion(4)">Питання 5</button>
+
+        </div>
+        <div id="question-block">
+            <h4 id="question-text">Питання</h4>
+            <div id="answer-options"></div>
+            <div id="question-svg"></div>
+            <button id="next-question" onclick="nextQuestion()">Наступне питання</button>
+            <button id="finish-test" onclick="finishTest()">Завершити тест</button>
+        </div>
+        <div id="result-display"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

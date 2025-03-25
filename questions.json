@@ -1,0 +1,24 @@
+[
+    {
+        "question": "Яка фігура на рис?",
+        "options": [
+            "квадрат",
+            "коло",
+            "прямокутник",
+            "трикутник"
+        ],
+        "correct": 3,
+        "svg": "link.svg"
+    },
+    {
+        "question": "Якого кольору фігура?",
+        "options": [
+            "red",
+            "green",
+            "blue",
+            "lavander"
+        ],
+        "correct": 1,
+        "svg": "color.svg"
+    }
+]

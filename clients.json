@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Уляна Ксьондз",
+        "email": "uliana.ksiondz@gmail.com",
+        "password": "scrypt:32768:8:1$k4WZ74bzff2ufbI7$cb10d03facfbb04a793f3041f55c15a8eaba38208614b590f3e2a7cb74cc56ddaa173c2d8dd1285009843282f6e72ad382817b9a22c60cfd3f520e0670bdc994",
+        "phone": "0963960736",
+        "dob": "2005-05-29",
+        "gender": "female",
+        "country": "Україна",
+        "agreement": true
+    },
+    {
+        "id": 2,
+        "name": "Анастасія Катело",
+        "email": "katelo.anastasia@gmail.com",
+        "password": "scrypt:32768:8:1$rbrMlLjS3PmNQnP4$b1bb318fdd752fc3e475952652f86defdbf6ba69cb2f689b7d4623ce337a380754f9db101831d1ec3d324e4d1300e0d441af69d2b2a402eefa6259d9ff4f62f7",
+        "phone": "0963957634",
+        "dob": "2010-06-09",
+        "gender": "female",
+        "country": "Україна",
+        "agreement": true
+    }
+]
